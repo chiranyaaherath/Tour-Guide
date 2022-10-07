@@ -1,0 +1,78 @@
+td.image{
+	background-image:url("../images/background.jpg");
+	align:center;
+}
+ul.menu{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:black;
+}
+li.menu{
+	display:block;
+	float:left;
+}
+a li{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:20px 20px;
+	text-decoration:none;
+}
+.menu input[type=text] {
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+ul.navigation{
+	height:280px;
+	width:180px;
+	margin:10;
+	padding:10;
+	background-color:black;
+}
+li.navigation{
+	display:block;
+	float:bottom;
+	text-align:left;
+}
+li{
+	
+	color:white;
+	text-align:center;
+	padding:15px;
+	text-decoration:none;
+}
+	
+form.menu{
+	background-color:#008B8B;
+}
+	
+font{
+	color:white;
+	font-family:cursive;
+}
+input[type=text] {
+  width: 20%;
+  padding: 9px 10px;
+  margin: 16px 0;
+  
+  
+
+}
+input[type=password] {
+  width:20%;
+  padding: 9px 10px;
+  margin:16px 0;
+  
+  
+
+}
+form.main{
+	background-color:black
+	
+}

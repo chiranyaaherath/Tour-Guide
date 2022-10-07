@@ -1,0 +1,303 @@
+td.image
+{
+	background-image:url("../images/background.jpg");
+	align:center;
+}
+
+font.navbar
+{
+	font-family:serif;
+}
+
+ul.menu{
+	height:60px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:black;
+	opacity:0.9;
+}
+li.menu{
+	display:block;
+	float:left;
+	
+}
+a li:hover{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:20px 30px;
+	text-decoration:none;
+	background-color:grey;
+}
+.menu input[type=text] {
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 10px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+ul.navigation{
+	height:250px;
+	width:200px;
+	margin:10;
+	padding:10;
+	background-color:black;
+	opacity:0.9;
+}
+li.navigation{
+	display:block;
+	float:bottom;
+	text-align:left;
+}
+li.navigation:hover{
+	
+	display:block;
+	color:white;
+	text-align:center;
+	padding:20px 20px;
+	text-decoration:none;
+	background-color:grey;
+}
+	
+	
+li{
+	
+	color:white;
+	text-align:center;
+	padding:12px;
+	text-decoration:none;
+}
+
+/*login page styles*/
+table.login{
+	background-color: black;
+	opacity: 0.7;
+}
+#main
+   {
+     width:600px; 
+	 height:260px;
+	 margin-left:auto; 
+	 margin-right:auto; 
+	 border-radius:5px; 
+	 padding-left:10px; 
+	 margin-top:100px;
+	 
+     border-top:3px double black;
+	 border-bottom:3px double black;
+	 padding-top:20px;
+   }
+#main table
+   {
+     font-family:"Comic Sans MS", cursive;
+	 color:white;
+   } 
+
+#main .UN
+  {
+    height:30px;
+	width:200px; 
+	border:1px solid grey; 
+	color:grey; 
+	font-weight:bold; 
+	border-left:5px solid grey; 
+	opacity:0.8;
+  }
+
+#main .btn
+   {
+    width:85px; 
+	height:35px; 
+	outline:none; 
+	font-weight:bold; 
+	border:0px solid black; 
+	text-shadow: 0px 0.5px 0.5px #fff;	
+    border-radius: 2px;
+	font-weight: 600; 
+	color: black; 
+	letter-spacing: 1px;
+	font-size:14px; 
+	-webkit-transition: 1s; 
+	-moz-transition: 1s; 
+	transition: 1s;
+   }
+  
+#main .btn:hover
+   {
+    background-color:black; 
+	outline:none;  
+	border-radius:	2px; 
+	color:#f1f1f1; 
+	border:1px solid #f1f1f1;
+   }
+   
+   
+  /* styles of images in sub pages of destination page*/
+tr.destinations{
+	background:#ADD8E6;
+	
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+
+.head{
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*style the text of transport facility part*/
+h2.vehicles{
+	font-family:cursive;
+	font-size:20px;
+}
+
+
+
+
+
+/*styles of images in destination page*/
+font.text{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+* {box-sizing: border-box;}
+
+.photo{
+	position: relative;
+	width: 150%;
+	max-width: 150px;
+	align-items:center;
+}
+
+
+.gallery{
+  display: block;
+  width: 200%;
+  height: 200%;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 150%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.photo:hover .overlay {
+  opacity: 1;
+}
+
+
+
+
+.side {
+  display: flex;
+}
+
+.by {
+  flex: 33.33%;
+  padding: 10px;
+}
+
+form.design{
+	background-color:#008B8B;
+	opacity:0.9;
+}
+
+/* styles of search button in home page*/
+.input{
+	height:50px;
+	padding:10px;
+	border:none;
+	border-radius:25px;
+	outline:none;
+	width:400px;
+}
+
+.search-btn{
+	height:50px;
+	width:150px;
+	background:#ADD8E6;
+	border:none;
+	color:#000;
+	border-radius:25px;
+}
+
+.search-btn:hover{
+	background:#6495ED;
+	cursor:pointer;
+}
+.form-box{
+	background:rgba(0,0,0,0.5);
+	padding:50px;
+	width:800px;
+}
+	
